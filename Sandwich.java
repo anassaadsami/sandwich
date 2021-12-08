@@ -10,6 +10,8 @@ public class Sandwich {
 	int naturPrice = 50;
 	int totalPrice;
 	static int noOfreicept = 0;
+	
+	// we have many constructor to make different object from this class depends of it's parameters
 
 	public Sandwich() {
 		totalPrice = naturPrice;
