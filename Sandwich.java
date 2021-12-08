@@ -19,7 +19,7 @@ public class Sandwich {
 	}
 
 	public Sandwich(String tomat) {
-//		this.tomat = tomat;
+		this.tomat = tomat;
 		totalPrice = naturPrice + tomatPrice ;
 		noOfreicept++;
 	}
@@ -37,7 +37,7 @@ public class Sandwich {
 		totalPrice = naturPrice + this.tomatPrice + this.onionPrice + this.sausPrice;
 		noOfreicept++;
 	}
-
+	// this is format print
 	public void price() {
 		System.out.printf("your no is %d the price is %d\n", noOfreicept, this.totalPrice);
 	}
